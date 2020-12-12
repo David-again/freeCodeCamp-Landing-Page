@@ -1,0 +1,38 @@
+@import "./modules/_footer.css";
+@import "./modules/_header.css";
+@import "./modules/_nav.css";
+@import "./modules/_product.css";
+
+body {
+    text-align: center;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+background-color: #EEEEEE;
+}
+
+
+
+.features__container{
+    /* Media query for larger screens go here */
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.features__description{
+    /* Media query for larger screens go here */
+    /* text-align: left; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230, 1fr));
+    grid-gap:20px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+}
+
+

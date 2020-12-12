@@ -1,0 +1,16 @@
+#nav-bar ol{
+    list-style-type: none;
+}
+
+.nav-link{
+    /* display: block; */
+    /* Media query for larger screens go here */
+    /* display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.nav-link a{
+    
+    /* padding: 20px; */
+}

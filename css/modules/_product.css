@@ -1,0 +1,26 @@
+.products {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin: 30px; */
+}
+
+.product-container {
+    display: grid;
+    grid-template-rows: 50px 260px 50px;
+    /* grid-template-columns: repeat(auto-fit, minmax(500px 700px)); */
+    /* grid-template-columns: minmax(300px, 320px); */
+    width: 30%;
+    min-width: 300px;
+    max-width: 320px;
+    border: 2px black solid;
+    gap: 20px;
+}
+
+.product-contatiner__header{
+    background-color: #DDDDDD;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
