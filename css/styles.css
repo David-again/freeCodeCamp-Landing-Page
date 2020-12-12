@@ -1,7 +1,8 @@
 @import "./modules/_footer.css";
 @import "./modules/_header.css";
 @import "./modules/_nav.css";
-@import "./modules/_product.css";
+/* @import "./modules/_product.css"; */
+@import "./modules/_pricing.css";
 
 body {
     text-align: center;
@@ -24,7 +25,7 @@ background-color: #EEEEEE;
     margin-right: auto; */
 }
 
-.cards {
+/* .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230, 1fr));
     grid-gap:20px;
@@ -35,4 +36,4 @@ background-color: #EEEEEE;
     grid-template-rows: max-content 200px 1fr;
 }
 
-
+ */
