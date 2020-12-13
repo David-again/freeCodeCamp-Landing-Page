@@ -1,0 +1,36 @@
+.features__container{
+    /* display: flex;
+    flex-direction: row; */
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features__description{
+    /* margin-left: 20px; */
+    /* position: static;
+    @media (min-width: 680px){ */
+        position: relative;
+        left: 120px; 
+    /* } */
+
+}
+
+
+.features__title, .features__comment {
+/*     
+    @media (max-width: 400px) { */
+        text-align: left;
+    /* } */
+    /* text-align: center; */
+}
+
+.features__image{
+    /* visibility: hidden;
+    position: static;
+    @media (min-width:680px){ */
+        visibility: visible;
+        position: absolute;
+    /* } */
+
+}

@@ -1,3 +1,5 @@
+/* No longer in use, since bootstrap now used for the cards in the pricing section! */
+
 .products {
     display: flex;
     flex-direction: row;
